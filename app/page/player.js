@@ -43,6 +43,7 @@ let Player = React.createClass({
         //console.log("form root :"+progress);
         //jPlayer设置当前时间
         $("#player").jPlayer('play',duration*progress);
+        console.log("abd....");
 
     },
     changeVolumeHandler(progress){
