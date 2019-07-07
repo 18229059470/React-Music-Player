@@ -24,7 +24,7 @@ new WebpackDevServer(webpack(config), {
 }).listen(3000, 'localhost', function (err) {
     if (err) {
         console.log(err);
-        console.log('v1-0847');
+        console.log('v1-0853');
     }
 
     console.log('Listening at localhost:3000');
