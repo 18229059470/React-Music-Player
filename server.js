@@ -24,22 +24,6 @@ new WebpackDevServer(webpack(config), {
 }).listen(3000, 'localhost', function (err) {
     if (err) {
         console.log(err);
-<<<<<<< HEAD
-        console.log('v1-0853');
-
-
-
-
-
-
-        
-=======
-        console.log('test diff....');
-        console.log('再次修改');
-
-
-        console.log("hello");
->>>>>>> 5c1335b6469675597b821ca5853a13700d31f4d8
     }
 
     console.log('Listening at localhost:3000');
