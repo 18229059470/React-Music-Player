@@ -26,6 +26,9 @@ new WebpackDevServer(webpack(config), {
         console.log(err);
         console.log('test diff....');
         console.log('再次修改');
+
+
+        console.log("hello");
     }
 
     console.log('Listening at localhost:3000');
