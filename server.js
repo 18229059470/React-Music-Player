@@ -25,6 +25,7 @@ new WebpackDevServer(webpack(config), {
     if (err) {
         console.log(err);
         console.log('test git reset');
+        console.log("test git diff --staged");
     }
 
     console.log('Listening at localhost:3000');
