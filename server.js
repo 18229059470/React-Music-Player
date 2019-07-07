@@ -26,7 +26,9 @@ new WebpackDevServer(webpack(config), {
         console.log(err);
         console.log('test git reset');
         console.log("test git diff --staged");
-        console.log("test git checkout...");
+        console.log("test git checkout.");
+        console.log('这是在分支上修改的效果.....');
+
     }
 
     console.log('Listening at localhost:3000');
